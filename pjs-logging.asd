@@ -1,6 +1,6 @@
 (require '#:sb-concurrency)
 
-(ql:quickload "trivial-backtrace")
+(ql:quickload "trivial-backtrace" "sqlite")
 
 (asdf:defsystem #:pjs-logging
   :serial t
